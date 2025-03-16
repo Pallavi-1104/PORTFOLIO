@@ -12,7 +12,7 @@ header {
     background-color: #1e3a8a;
     color: white;
     text-align: center;
-    padding: 40px 10px;
+    padding: 30px 10px; /* Reduced padding to remove extra space */
 }
 
 .hero h1 {
@@ -23,6 +23,7 @@ header {
 .hero p {
     font-size: 1.2rem;
     opacity: 0.9;
+    margin-bottom: 10px; /* Reduce unnecessary space */
 }
 
 /* Navigation */
@@ -45,7 +46,7 @@ nav ul li a {
 
 /* Sections */
 .section {
-    padding: 50px 20px;
+    padding: 40px 20px; /* Reduced padding to remove extra space */
     text-align: center;
 }
 
@@ -54,6 +55,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -20px; /* Move About Me section up */
 }
 
 .profile-pic {
@@ -110,3 +112,4 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
